@@ -1,0 +1,56 @@
+name: product_new_screen
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.5
+  flutter_svg: ^2.0.16
+  flutter_bounceable: ^1.1.0
+  google_maps_flutter: ^2.10.0
+  geocoding: ^3.0.0
+  smooth_page_indicator: ^1.2.0+3
+  carousel_slider: 
+  google_fonts: ^6.2.1
+  flutter_icon_snackbar: ^1.2.1
+  shared_preferences: ^2.3.5
+  cached_network_image: ^3.4.1
+  intl: ^0.20.1
+
+  location: ^7.0.1
+  permission_handler: ^11.3.1
+  geolocator: ^13.0.2
+  shimmer: ^3.0.0
+  curved_navigation_bar: ^1.0.6
+  sqflite: ^2.4.1
+  quickalert: ^1.1.0
+  path: ^1.9.0
+  awesome_dialog: ^3.2.1
+  top_snackbar_flutter: ^3.2.0
+  flashy_tab_bar2: ^0.0.10
+  flame_splash_screen: ^0.3.1
+  flame: ^1.23.0
+  animated_text_kit: ^4.2.3
+  badges: ^3.1.2
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/png/
+    - assets/svg/
+
+  
+
